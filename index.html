@@ -5,6 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    
+    <!-- trying to get icons working... -->
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <!-- <i class="fas fa-cloud"></i> -->
+
   </head>
   <body>
     <!-- Header -->
@@ -17,9 +22,9 @@
 
     <!-- Navbar -->
     <nav>
-      <a href="https://www.linkedin.com/in/benjidecker/">LinkedIn</a>
-      <a href="https://github.com/BenjiCCB">Github</a>
-      <a href="https://www.instagram.com/benji_decker/">Instagram</a>
+      <a href="#about-me">About Me</a>
+      <a href="#roles-intro">Roles</a>
+      <a href="#contact-form">Contact</a>
     </nav>
   
     <!-- Body -->
@@ -40,22 +45,26 @@
       </aside>
       <div class="content">
          <!-- About me -->
-        <div class="about-me">
+        <div class="about-me" id="about-me">
           <h2>About me</h2>
-          <!-- <img src="./assets/images/profile.jpg" alt="profile image" /> -->
           <!-- Profile pic -->
           <div class="about-me-bio"><img src="./assets/images/profile.jpg" alt="profile image" />
-                    <p>Entrepreneur.  Investor.  General trouble maker.<br><br>
+              <p>Entrepreneur.  Investor.  General trouble maker.<br><br>
 
-            Most recently, Principal at Bridge Capital, empowering champion businesses of tomorrow through funding and support.  Formerly EIR @Mercer, driving cross-organizational change and innovation for the world’s largest corporations.  Before this, I served as Global Community Director at WeWork, Global Director of WeWork Labs,  founder of the location based social network Kami, and lead on corporate strategy digital initiatives at NBCU.<br><br>
+              Most recently, Principal at Bridge Capital, empowering champion businesses of tomorrow through funding and support.  Formerly EIR @Mercer, driving cross-organizational change and innovation for the world’s largest corporations.  Before this, I served as Global Community Director at WeWork, Global Director of WeWork Labs,  founder of the location based social network Kami, and lead on corporate strategy digital initiatives at NBCU.<br><br>
             
-            I studied new media at Harvard for my undergrad, received a Masters at NYU in open innovation, and am a graduate of General Assembly's web development immersive program.<br><br>
+              I studied new media at Harvard for my undergrad, received a Masters at NYU in open innovation, and am a graduate of General Assembly's web development immersive program.<br><br>
             
-            I believe in openness, honesty, and passion.  I'm an all around dork for all things digital and community building<br><br>
-             </p>
+              I believe in openness, honesty, and passion.  I'm an all around dork for all things digital and community building<br><br>
+             
+              Benji can be reached at:
+              <a href="https://www.linkedin.com/in/benjidecker/">LinkedIn</a>
+              <a href="https://github.com/BenjiCCB">Github</a>
+              <a href="https://www.instagram.com/benji_decker/">Instagram</a>
+            </p>
         </div>
         </div>
-        <h2 class = "roles-intro"> Benji has held positions with:</h2>
+        <h2 class = "roles-intro" id="roles-intro"> Benji has held positions with:</h2>
         <!-- Role Cards -->
         <div class="roles">
           <section class="card">
@@ -87,7 +96,7 @@
         </div>
     
       <!-- Contact form -- Revised from W3CSchool-->
-      <div class="container">
+      <div class="container" id="contact-form">
           <form action="action_page.php">
       
           <h2>Contact Benji</h2>

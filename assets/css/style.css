@@ -40,9 +40,10 @@ header {
   height: 200px;
 }
 
-/* .about-me img{
-  display: inline;
-} */
+.about-me-bio a{
+  padding: 0 7px;
+  font-size: 1.2em;
+}
 
 .roles-intro{
   margin-left: 40px;

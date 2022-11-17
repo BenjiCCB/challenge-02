@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CSS Box Styling</title>
+    <title>Benji Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
@@ -39,18 +39,21 @@
         <li class="bullet-stars">⭐⭐⭐⭐⭐</li>
       </aside>
       <div class="content">
-        <!-- About me -->
+         <!-- About me -->
         <div class="about-me">
           <h2>About me</h2>
-          <p>Entrepreneur.  Investor.  General trouble maker.<br><br>
+          <!-- <img src="./assets/images/profile.jpg" alt="profile image" /> -->
+          <!-- Profile pic -->
+          <div class="about-me-bio"><img src="./assets/images/profile.jpg" alt="profile image" />
+                    <p>Entrepreneur.  Investor.  General trouble maker.<br><br>
 
             Most recently, Principal at Bridge Capital, empowering champion businesses of tomorrow through funding and support.  Formerly EIR @Mercer, driving cross-organizational change and innovation for the world’s largest corporations.  Before this, I served as Global Community Director at WeWork, Global Director of WeWork Labs,  founder of the location based social network Kami, and lead on corporate strategy digital initiatives at NBCU.<br><br>
             
             I studied new media at Harvard for my undergrad, received a Masters at NYU in open innovation, and am a graduate of General Assembly's web development immersive program.<br><br>
             
             I believe in openness, honesty, and passion.  I'm an all around dork for all things digital and community building<br><br>
-            
-          </p>
+             </p>
+        </div>
         </div>
         <h2 class = "roles-intro"> Benji has held positions with:</h2>
         <!-- Role Cards -->
@@ -81,6 +84,27 @@
             />
             <p>Masters Degree</p>
           </section>
+        </div>
+    
+      <!-- Contact form -- Revised from W3CSchool-->
+      <div class="container">
+          <form action="action_page.php">
+      
+          <h2>Contact Benji</h2>
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+          </form>
         </div>
       </div>
     </main>

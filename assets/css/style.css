@@ -25,6 +25,7 @@ header {
 
 .about-me{
   margin: 40px;
+  margin-top: 65px;
 }
 
 .roles-intro{
@@ -51,12 +52,17 @@ main {
 }
 
 aside {
-  flex: 0 0 35%;
+  margin-top: 20;
+  flex: 0 0 25%;
   /*background-color: #6a8ec2;*/
   background-image: linear-gradient(to right, #6a8ec2, white);
-  padding: 30px 80px;
+  padding: 40px 0px 0px 30px;
   text-align: left;
   line-height: 2em;
+}
+
+aside li{
+  font-size: 1.2em;
 }
 
 .bullet-stars{
@@ -126,9 +132,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 2240px) {
+/* @media screen and (max-width: 2240px) {
   .products {
     max-width: 70%;
     margin: 0 auto;
   }
-}
+} */
